@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="css/about.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="main">
+    <div class="nav">
+      <div class="logo"><img src="./image/logo.png" alt=""></div>
+      <div class="menu">
+        <ul>
+          <li>Home</li>
+          <li>Shop</li>
+          <li>About</li>
+          <li>Contacts</li>
+        </ul>
+      </div>
+      <div class="ricon">
+        <img class="search" src="./image/search.png" alt="">
+        <img class="heart" src="./image/heart.png" alt="">
+        <img class="cart" src="./image/cart.png" alt="">
+      </div>
+      <div class="login">Login</div>
+    </div>
+    <div class="name">
+      <p>Shop<br><span>Home > About Us</span></p>
+    </div>
+    <div class="container">
+      <div class="explain">
+        <img src="image/about-us.jpg" alt="">
+        <div class="question">
+          <div class="q1">
+            <p class="p1">Who We Are ?</p>
+            <p class="p2">Contextual advertising programs sometimes have strict policies that need to be adhered too. Let’s take Google as an example.</p>
+          </div>
+          <div class="q2">
+            <p class="p1">Who We Do ?</p>
+            <p class="p2">In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance.</p>
+          </div>
+          <div class="q3">
+            <p class="p1">Why Choose Us ?</p>
+            <p class="p2">A two or three storey house is the ideal way to maximise the piece of earth on which our home sits, but for older or infirm people.</p>
+          </div>
+        </div>
+      </div>
+      <div class="mes">
+        <div class="m1">
+          <div class="txt">
+            <div class="mestxt"><p>“Going out after work? Take your butane<br>
+              curling iron with you to the office, heat it up,<br>
+              style your hair before you leave the office and<br>
+              you won’t have to make a trip back home.”</p></div>
+            <div class="author">
+              <img src="image/author.jpg" alt="">
+              <div><p>Augusta Schultz<br><span>Fashion Design</span></p></div>
+            </div>
+          </div>
+          <div class="img"></div>
+        </div>
+        <div class="m2"></div>
+        <div class="m3">
+          <div class="big">
+            <div class="small1">102</div>
+            <div class="small2">Our<br>Clients</div>
+          </div>
+          <div class="big">
+            <div class="small1">30</div>
+            <div class="small2">Total<br>Categiries</div>
+          </div>
+          <div class="big">
+            <div class="small1">120</div>
+            <div class="small2">In<br>Country</div>
+          </div>
+          <div class="big">
+            <div class="small1">98%</div>
+            <div class="small2">Happy<br>Customer</div>
+          </div>
+        </div>
+      </div>
+      <div class="team">
+        <div class="title">
+          <center><p>OUR TEAM<br><span>Meet Our Team</span></p></center>
+        </div>
+        <div class="member">
+          <div>
+            <img src="image/team1.jpeg" alt="">
+            <p>John Smith<br><span>Fashion Design</span></p>
+          </div>
+          <div>
+            <img src="image/team2.jpeg" alt="">
+            <p>Christine Wise<br><span>C.E.O</span></p>
+          </div>
+          <div>
+            <img src="image/team4.jpeg" alt="">
+            <p>Sean Robbins<br><span>Manager</span></p>
+          </div>
+          <div>
+            <img src="image/team3.jpeg" alt="">
+            <p>Son Handsome<br><span>President</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="partner">
+        <div class="title">
+          <center><p>PARTNER<br><span>Happy Clients</span></p></center>
+        </div>
+        <center>
+        <div class="company">
+          <img src="image/client1.jpg" alt="">
+          <img src="image/client2.jpg" alt="">
+          <img src="image/client3.jpg" alt="">
+          <img src="image/client4.jpg" alt="">
+          <img src="image/client5.jpg" alt="">
+          <img src="image/client6.jpg" alt="">
+          <img src="image/client7.jpg" alt="">
+          <img src="image/client8.jpg" alt="">
+        </div>
+      </center>
+      </div>
+    </div>
+    <div class="contacts">
+      <div class="big">
+        <div class="little">
+          <div class="g1">
+            <img src="./image/logo2.png" alt="">
+            <p>The customer is at the heart of our<br>unique business model, which includes<br>design.</p>
+            <img src="./image/payment.png" alt="">
+          </div>
+          <div class="g2">
+            <p class="title">SHOPPING</p>
+            <p class="p">Clothings Store<br>Trending Store<br>Accessories<br>Sale</p>
+          </div>
+          <div class="g3">
+            <p class="title">SHOPPING</p>
+            <p class="p">Contacts Us<br>Payment Methods<br>Delivery<br>Return & Exchanges</p>
+          </div>
+          <div class="g4">
+            <p class="title">NEW LETTER</p>
+            <p class="p">Be the first to know about new arrivals,<br>look books, sales & promos!</p>
+            <input type="text" name="" placeholder="Your Email">
+          </div>
+        </div>
+        <div class="last">
+          Copyright © 20202020 All rights reserved by Sơn handsome
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

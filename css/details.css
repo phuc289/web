@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+}
+/* navbar */
+.navbar{
+  width:100% !important;
+}
+.navbar-toggler{
+  margin: 20px 0 20px 0 !important;
+}
+.navbar-brand{
+  width:35%;
+}
+.collapse{
+  width:65%;
+}
+.nav-item{
+  margin: 0 0.5vw 0 0.5vw;
+}
+.navbar-nav{
+  width:80%;
+}
+.form-inline{
+  width:20%;
+}
+.form-control{
+  width:150px !important;
+}
+.form-inline .btn{
+  width:100px;
+}
+.search,.heart{
+  margin-right: 1.5vw;
+}
+/* breadcrumb*/
+.breadcrumb{
+  height: 150px;
+}
+.breadcrumb .title{
+  position: relative;
+  left:11.5vw;
+  top:3vh;
+  color:black;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.breadcrumb .breadcrumb-item a{
+  color:grey ;
+}
+.breadcrumb-item.active{
+  color:black !important;
+}
+.name{
+  display: flex;
+  position: relative;
+  left:8vw;
+  top:9vh;
+  font-size: 15px;
+  font-weight: 300;
+}
+/* details*/
+.details{
+  display: flex;
+  margin-top: 100px;
+}
+.img1{
+  width:50%;
+}
+.img1 img{
+  width:400px;
+  height:400px;
+  object-fit: cover;
+}
+.info{
+  width:50%;
+}
+.info .title{
+  margin:0;
+}
+.info i{
+  margin: 10px 0 20px 0;
+}
+.info .price{
+  margin-bottom: 14px;
+}
+.details .info .title{
+  font-size: 50px;
+}
+.details .info .price{
+  font-size: 30px;
+}
+.details .info .more{
+  font-weight: 300;
+  font-size: 18px;
+}
+.details .info .more span{
+  font-weight: 400;
+  font-size: 20px;
+}
+.quantity{
+  display: flex;
+  justify-content: space-between;
+  width:250px;
+}
+.quantity .inp{
+  width:30px;
+}
+.quantity input{
+  width:100%;
+  outline: none;
+  padding-left: 9px;
+}
+.quantity .bt{
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  position:relative;
+  top:-8px;
+  left:10px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: black;
+}
+.quantity .bt button{
+  font-weight: 300;
+  color:white;
+  border: none;
+  background: none;
+  outline: none;
+}

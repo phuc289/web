@@ -1,0 +1,16 @@
+.banner{
+  width:1024px;
+  margin: auto;
+}
+.lslide{
+  display: flex;
+  justify-content:center;
+}
+.li:hover > .oknha{
+  transform: scale(1.2);
+}
+.container .ul{
+  width:260px !important;
+  height:260px !important;
+  overflow: hidden;
+}

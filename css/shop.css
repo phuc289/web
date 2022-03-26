@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+  color:black;
+}
+a{
+  text-decoration: none;
+}
+/* navbar */
+.navbar-toggler{
+  margin: 20px 0 20px 0 !important;
+}
+.navbar-brand{
+  width:35%;
+}
+.collapse{
+  width:65%;
+}
+.nav-item{
+  margin: 0 0.5vw 0 0.5vw;
+}
+.navbar-nav{
+  width:80%;
+}
+.form-inline{
+  width:20%;
+}
+.form-control{
+  width:150px !important;
+}
+.form-inline .btn{
+  width:100px;
+}
+.search,.heart{
+  margin-right: 1.5vw;
+}
+/* breadcrumb */
+.breadcrumb{
+  height: 150px;
+}
+.breadcrumb .title{
+  position: relative;
+  left:11.5vw;
+  top:3vh;
+  color:black;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.breadcrumb .breadcrumb-item a{
+  color:grey ;
+}
+.breadcrumb-item.active{
+  color:black !important;
+}
+.name{
+  display: flex;
+  position: relative;
+  left:8vw;
+  top:9vh;
+  font-size: 15px;
+  font-weight: 300;
+}
+/* con */
+
+
+.breadcrumb{
+  margin: 0 0 50px 0 !important;
+}
+.right{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+.left{
+  width:100%;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.left .searchs {
+  width:100%;
+  height:50px;
+  margin-bottom: 40px;
+}
+.left .searchs img{
+  position: relative;
+  top:-38px;
+  left:260px;
+  cursor: pointer;
+}
+.left .searchs input{
+  width:100%;
+  height:50px;
+  border:1px solid rgba(178, 190, 195,1.0);
+  padding-left: 20px;
+  outline: none;
+}
+/* container categories */
+.categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 50px;
+  width:100%;
+}
+.categories i{
+  padding: 10px;
+  font-size: 25px;
+}
+.categori .chiadeu{
+  display: flex;
+  width:100%;
+  justify-content:  space-between;
+}
+
+.categori ul div{
+  font-size: 17px;
+  color:black;
+}
+.categori ul li{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width:100%;
+}
+.categori ul li ul{
+  display: none;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.categories .collapse{
+  line-height: 40px;
+}
+.categories ul li a{
+  color:grey;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+/* right*/
+.right .items{
+
+}
+
+.card {
+  border: none !important;
+  overflow: hidden !important;
+}
+.img{
+  overflow: hidden !important;
+}
+.card:hover .card-img-top{
+  transform: scale(1.2) !important;
+  transition: 0.9s !important;
+}
+.card-body{
+  padding:10px 0 0 0 !important;
+  line-height: 25px !important;
+}
+.overplay{
+  width:35px;
+  display: block ;
+  opacity: 1;
+  position: absolute;
+  top:20px;
+  left:-35px;
+}
+.overplay .col{
+  height:35px;
+  margin-bottom: 15px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.card:hover .overplay{
+  transform: translate(55px,0);
+  transition: 0.35s;
+}
+.card-title{
+  margin:0 !important;
+  font-size: 20px !important;
+  font-weight: 300 !important;
+}
+.far{
+  color:grey;
+  font-size: 12px !important;
+  padding-bottom: 8px !important;
+}
+.price{
+  font-size: 18px;
+  font-weight: 300;
+}
+/* contact */
+.contacts{
+  color:white;
+  width:100vw;
+  height:50vh;
+  background-color: #111111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacts .big{
+  display: flex;
+  flex-direction:column;
+}
+.contacts .big .little{
+  display: flex;
+  justify-content: space-around;
+}
+.contacts .big .g1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width:100%;
+  margin-right: 100px;
+}
+.contacts .big .g1 img{
+  width:80%;
+  height:70%;
+}
+.contacts .big .g1 img, p{
+  margin-bottom: 30px;
+}
+.contacts .big .g1 p{
+  font-size: 15px;
+  color:grey;
+  font-weight: 300;
+}
+.contacts .big .g2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+.contacts .big .g2 .p{
+  font-size: 15px;
+  font-weight: 300;
+  color:grey;
+  line-height: 30px;
+  width:200px;
+}
+.contacts .big .g2 .title{
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color:white;
+}
+.contacts .big .g3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 40px;
+}
+.contacts .big .g3 .p{
+  font-size: 15px;
+  font-weight: 300;
+  color:grey;
+  line-height: 30px;
+  width:200px;
+}
+.contacts .big .g3 .title{
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color:white;
+}
+.contacts .big .g4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:100%;
+  width:200px;
+  position: relative;
+  top:-3px;
+}
+.contacts .big .g4 .p{
+  font-size: 15px;
+  font-weight: 300;
+  color:grey;
+  line-height: 30px;
+  width:300px;
+  position: relative;
+  top:-6px;
+}
+.contacts .big .g4 .title{
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color:white;
+}
+.contacts input{
+  color:grey;
+  background:#111111;
+  border:none;
+  outline: none;
+  width:100%;
+  height:20%;
+  border-bottom: 3px solid white;
+  position: relative;
+  top:-30px;
+}
+.contacts .last{
+  width:108%;
+  height:20%;
+  border-top:1px solid grey;
+  margin-top: 40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-size: 20px;
+  padding-top: 50px;
+  font-family: 'Thoi Sach';
+}

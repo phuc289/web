@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+  color:black;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100vw;
+}
+.nav{
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.95);
+  width:100vw;
+  height:10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 10;
+}
+.nav .logo{
+  width:15vw;
+}
+.nav .menu ul {
+  width:30vw;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nav .ricon{
+  display: flex;
+  justify-content: space-around;
+  width:10vw;
+}
+.login{
+  position: absolute;
+  right:2vw;
+}
+/* name*/
+.name{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  align-items: center;
+  margin-top: 100px;
+  font-size: 25px;
+  position: relative;
+  height:150px;
+  width:100vw;
+  background-color: rgba(243, 242, 238,1.0);
+  color: black;
+}
+.name p{
+  padding-top: 25px;
+  position: relative;
+  left:-510px;
+}
+.name span{
+  color:grey;
+  font-size: 15px;
+}
+/* container*/
+.container{
+  margin-top: 100px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  width:100%;
+}
+.container .explain{
+  width:80%;
+  display: flex;
+  flex-direction: column;
+}
+.container .explain .question{
+  width:100%;
+  display: flex;
+  justify-content:  space-between;
+  margin: 20px 0 20px 0;
+}
+.container .explain .question .q1,.q2,.q3{
+  width:30%;
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+}
+.container .explain .question .p1{
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+.container .explain .question .p2{
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  color:grey;
+}
+.container .mes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.container .mes .m1{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(178, 190, 195,0.2);
+}
+.container .mes .m1 .txt{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:50vw;
+}
+.container .mes .m1 .txt .mestxt{
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+}
+.container .mes .m1 .author {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .mes .m1 .author img{
+  border-radius: 50%;
+  position: relative;
+  top:-15px;
+  left:-20px;
+}
+.container .mes .m1 .author p span{
+  color:grey;
+  font-size: 18px;
+  font-weight: 200;
+  font-style:italic;
+}
+.container .mes .m1 .img{
+  width:50vw;
+  height:600px;
+  background-image: url('image/picnic.jpg');
+  background-position: center;
+}
+.container .mes .m3 {
+  padding-right: 130px;
+  width:80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 0.5px solid rgba(178, 190, 195,0.8);
+}
+.container .mes .m3 .big{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  width:10%;
+  height:250px;
+  padding-top: 20px;
+}
+.container .mes .m3 .big .small1{
+  font-size: 60px;
+}
+.container .mes .m3 .big .small2{
+  font-size: 18px;
+  padding-left: 20px;
+}
+.container .team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .team .title p{
+  font-size: 14px;
+  color:red;
+  padding-top: 100px;
+}
+.container .team .title p span{
+  font-size: 36px;
+}
+.container .team .member{
+  display: flex;
+  justify-content: space-between;
+  width:85vw;
+}
+.container .team .member p {
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 20px;
+}
+.container .team .member p span{
+  font-size: 15px;
+  color:rgb(178, 190, 195);
+  font-weight: 300;
+}
+.container .team .member img{
+  border: 1px solid rgba(178, 190, 195,0.8);
+}
+.container .partner .title p{
+  font-size: 15px;
+  color:red;
+  font-weight: 400;
+  line-height: 50px;
+  padding-top: 30px;
+}
+.container .partner .title p span{
+  font-size: 36px;
+}
+.container .partner .company{
+  width:80vw;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap:100px;
+  padding: 40px 0 100px 0;
+}
+/* contact */
+.contacts{
+  color:white;
+  width:100vw;
+  height:50vh;
+  background-color: #111111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacts .big{
+  display: flex;
+  flex-direction:column;
+}
+.contacts .big .little{
+  display: flex;
+  justify-content: space-around;
+}
+.contacts .big .g1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width:100%;
+  margin-right: 100px;
+}
+.contacts .big .g1 img{
+  width:80%;
+  height:70%;
+}
+.contacts .big .g1 img, p{
+  margin-bottom: 30px;
+}
+.contacts .big .g1 p{
+  font-size: 15px;
+  color:grey;
+  font-weight: 300;
+}
+.contacts .big .g2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+.contacts .big .g2 .p{
+  font-size: 15px;
+  font-weight: 300;
+  color:grey;
+  line-height: 30px;
+  width:200px;
+}
+.contacts .big .g2 .title{
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color:white;
+}
+.contacts .big .g3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 40px;
+}
+.contacts .big .g3 .p{
+  font-size: 15px;
+  font-weight: 300;
+  color:grey;
+  line-height: 30px;
+  width:200px;
+}
+.contacts .big .g3 .title{
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color:white;
+}
+.contacts .big .g4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:100%;
+  width:200px;
+  position: relative;
+  top:-3px;
+}
+.contacts .big .g4 .p{
+  font-size: 15px;
+  font-weight: 300;
+  color:grey;
+  line-height: 30px;
+  width:300px;
+  position: relative;
+  top:-6px;
+}
+.contacts .big .g4 .title{
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  color:white;
+}
+.contacts input{
+  color:grey;
+  background:#111111;
+  border:none;
+  outline: none;
+  width:100%;
+  height:20%;
+  border-bottom: 3px solid white;
+  position: relative;
+  top:-30px;
+}
+.contacts .last{
+  width:108%;
+  height:20%;
+  border-top:1px solid grey;
+  margin-top: 40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-size: 20px;
+  padding-top: 50px;
+  font-family: 'Thoi Sach';
+}

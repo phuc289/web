@@ -1,0 +1,30 @@
+.card-body{
+  z-index: 100 !important;
+  color:black;
+  font-size: 15px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.card-body p{
+  padding: 0;
+  margin: 0;
+}
+
+.lslide{
+  height:auto !important;
+}
+.overplay{
+  position: absolute;
+  left:-70px;
+  top:30px;
+}
+.overplay img{
+  width:30px;
+  height:30px;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+}
+.okla{
+  padding-top:50px;
+}

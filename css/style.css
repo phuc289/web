@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+}
+.cleara{
+  text-decoration: none !important;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* nav bar */
+.navbar{
+  width:100% !important;
+}
+.navbar-toggler{
+  margin: 20px 0 20px 0 !important;
+}
+.navbar-brand{
+  width:35%;
+}
+.collapse{
+  width:65%;
+}
+.nav-item{
+  margin: 0 0.5vw 0 0.5vw;
+}
+.navbar-nav{
+  width:80%;
+}
+.form-inline{
+  width:20%;
+}
+.form-control{
+  width:150px !important;
+}
+.form-inline .btn{
+  width:100px;
+}
+.search,.heart{
+  margin-right: 1.5vw;
+}
+/* home */
+.home{
+  width:100vw;
+  height:100vh;
+  background-image: url("./image/home1.jpg");
+  background-position: center;
+}
+.carousel-control-prev,.carousel-control-next{
+  width:5% !important;
+}
+/* đổi màu nút prev, next thành màu đen fill=%23000 */
+.carousel-control-prev-icon{
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+/* carousel */
+
+.carousel-item .text {
+  width:485px;
+  height:554px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top:20vh;
+  left:10vw;
+}
+.carousel-item .text1{
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px;
+  color:red;
+}
+.carousel-item .text2{
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 400;
+  padding: 10px;
+}
+.carousel-item .text3{
+  font-weight: 300;
+  font-size: 16px;
+  padding: 10px 0 10px 10px;
+}
+.carousel-item .buttont{
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: 1px solid black;
+  width:180px;
+  height:50px;
+  margin: 20px 0 0 10px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  transition: 0.3s;
+}
+.carousel-item .buttont:hover{
+  color:white;
+  background: black;
+  cursor: pointer;
+}
+/* shop */
+.shop{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:auto;
+}
+/* shop col*/
+.shop .row .col{
+  width:200px !important;
+}
+.shop .collect{
+  padding-top: 10vh;
+  width:100%;
+  height: 150vh;
+  display: flex;
+  justify-content: space-around;
+}
+.shop .collect .p1{
+  font-size: 36px;
+  line-height: 50px;
+  padding-bottom: 1vh;
+}
+.shop .collect .p2{
+  display:flex;
+  justify-content: center;
+  font-size: 15px;
+  letter-spacing: 3px;
+  transition: 0.3s;
+  border:1px solid black;
+  width:100px;
+  padding: 0 0 0 3px;
+  cursor: pointer;
+}
+.shop .collect .p2:hover{
+  background-color: #fd79a8;
+  color:white;
+}
+.shop .collect .clothing{
+  width:50vw;
+  height:60vh;
+  position: relative;
+  top:2vh;
+  left:52vw;
+}
+.shop .collect .clothing .text{
+  position: absolute;
+  top:140px;
+  left:-210px;
+}
+.shop .collect .shoes{
+  width:50vw;
+  height:60vh;
+  position: relative;
+  left:24vw;
+  top:70vh;
+}
+.shop .collect img{
+  border:1px solid blue !important;
+}
+.shop .collect .shoes .text{
+  position: absolute;
+  left:-10vw;
+  top:16vh;
+}
+.shop .collect .acs{
+  width:50vw;
+  height:60vh;
+  position: relative;
+  top:48vh;
+  left:-57vw;
+}
+.shop .collect .acs .text{
+  position: relative;
+  top:2vh;
+}
+/* shop trending*/
+.trending{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trending .title{
+  display: flex;
+  justify-content: space-around;
+  width:50vw;
+  padding: 5vh 0 5vh 0;
+}
+.trending .title .navbar .nav-item{
+  margin-right: 50px;
+}
+.trending .title a{
+  text-decoration: none;
+  color:grey;
+  font-size: 25px;
+  font-weight: 500;
+}
+.card {
+  border: none !important;
+  overflow: hidden !important;
+}
+.img{
+  overflow: hidden !important;
+}
+.card:hover .card-img-top{
+  transform: scale(1.2) !important;
+  transition: 0.9s !important;
+}
+.card-body{
+  padding:10px 0 0 0 !important;
+  height:100px !important;
+  line-height: 25px !important;
+}
+.overplay{
+  width:35px;
+  display: block ;
+  opacity: 1;
+  position: absolute;
+  top:20px;
+  left:-35px;
+}
+.overplay .col{
+  height:35px;
+  margin-bottom: 15px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.card:hover .overplay{
+  transform: translate(55px,0);
+  transition: 0.35s;
+}
+.card-title{
+  margin:0 !important;
+  font-size: 20px !important;
+  font-weight: 300 !important;
+}
+.far{
+  color:grey;
+  font-size: 12px !important;
+  padding-bottom: 8px !important;
+}
+.price{
+  font-size: 18px;
+  font-weight: 300;
+}
+/* shop sale */
+.sale{
+  width:100%;
+  height:100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.sale .selling{
+  width:100%;
+  height:500px;
+  background-color: rgba(178, 190, 195,0.2);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sale .selling .title{
+  width:30%;
+  font-size: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  line-height: 70px;
+  color:grey;
+  position: relative;
+  left:3vw;
+}
+.sale .selling .item{
+  width:30%;
+  position:relative;
+  right:1vw;
+}
+.sale .selling .title .active{
+  color:black;
+}
+.sale .selling .text{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items:  flex-start;
+  width:30%;
+}
+.sale .selling .text .titletxt{
+  font-size: 14px;
+  color:red;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.sale .selling .text .name{
+  font-size: 36px;
+  font-weight: 500;
+}
+.sale .selling .text .timer{
+  margin-top: 20px;
+  font-size: 36px;
+  letter-spacing: 5px;
+}
+.sale .selling .text .time .dhms{
+  font-size: 14px;
+  font-weight: 300;
+  display:flex;
+  justify-content: space-around;
+  width:380px;
+  margin-top: 20px;
+  position: relative;
+  left:-15px;
+}
+.sale .selling .text  button{
+  font-size: 15px;
+  letter-spacing: 5px;
+  font-weight: 500;
+  margin-top: 25px;
+  width:150px;
+  height:50px;
+  color:white;
+  background-color: black;
+  cursor: pointer;
+}
+.sale .selling .text  button:hover{
+  color:black;
+  background:none;
+}
+/* about */
+.main .about {
+  width:100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .about .big{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:80%;
+  margin-bottom: 80px;
+}
+.main .about .img{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 10px;
+  margin-right: 100px;
+}
+.main .about .text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.main .about .text .title{
+  font-size: 36px;
+  font-weight: 500;
+}
+.main .about .text .nd{
+  font-size: 15px;
+  font-weight: 300;
+  color:grey;
+}
+.main .about .text .hashtag{
+  font-size: 30px;
+  font-weight: 500;
+  color:red;
+}
+.main .about .text .title,.nd,.hashtag{
+  margin-bottom: 40px;
+}
+/* contacts*/
+.breadcrumb.bc1{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.contacts{
+  color:white;
+  width:100%;
+  height:50vh;
+  background-color: #111111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacts .big{
+  display: flex;
+  flex-direction:column;
+}
+.contacts .big .little{
+  display: flex;
+  justify-content: space-around;
+}
+.contacts .big .g1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width:100%;
+  margin-right: 100px;
+}
+.contacts .big .g1 img{
+  width:80%;
+  height:70%;
+}
+.contacts .big .g1 img, p{
+  margin-bottom: 30px;
+}
+.contacts .big .g1 p{
+  font-size: 15px;
+  color:grey;
+  font-weight: 300;
+}
+.contacts .big .g2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+.contacts .big .g2 .p{
+  font-size: 15px;
+  font-weight: 300;
+  color:grey;
+  line-height: 30px;
+  width:200px;
+}
+.contacts .big .g2 .title{
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.contacts .big .g3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 40px;
+}
+.contacts .big .g3 .p{
+  font-size: 15px;
+  font-weight: 300;
+  color:grey;
+  line-height: 30px;
+  width:200px;
+}
+.contacts .big .g3 .title{
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.contacts .big .g4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:100%;
+  width:200px;
+  position: relative;
+  top:-3px;
+}
+.contacts .big .g4 .p{
+  font-size: 15px;
+  font-weight: 300;
+  color:grey;
+  line-height: 30px;
+  width:300px;
+  position: relative;
+  top:-6px;
+}
+.contacts .big .g4 .title{
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.contacts input{
+  color:grey;
+  background:#111111;
+  border:none;
+  outline: none;
+  width:100%;
+  height:20%;
+  border-bottom: 3px solid white;
+  position: relative;
+  top:-30px;
+}
+.contacts .last{
+  width:108%;
+  height:20%;
+  border-top:1px solid grey;
+  margin-top: 40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-size: 20px;
+  padding-top: 50px;
+  font-family: 'Thoi Sach';
+}

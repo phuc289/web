@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+  font-family: 'Poppins', sans-serif !important;
+}
+/* navbar */
+.navbar{
+  width:100% !important;
+}
+.navbar-toggler{
+  margin: 20px 0 20px 0 !important;
+}
+.navbar-brand{
+  width:35%;
+}
+.collapse{
+  width:65%;
+}
+.nav-item{
+  margin: 0 0.5vw 0 0.5vw;
+}
+.navbar-nav{
+  width:80%;
+}
+.form-inline{
+  width:20%;
+}
+.form-control{
+  width:150px !important;
+}
+.search,.heart{
+  margin-right: 1.5vw;
+}
+/* breadcrumb*/
+.breadcrumb{
+  height: 150px;
+}
+.breadcrumb .title{
+  position: relative;
+  left:11.5vw;
+  top:3vh;
+  color:black;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.breadcrumb .breadcrumb-item a{
+  color:grey ;
+}
+.breadcrumb-item.active{
+  color:black !important;
+}
+.name{
+  display: flex;
+  position: relative;
+  left:8vw;
+  top:9vh;
+  font-size: 15px;
+  font-weight: 300;
+}
+/* details */
+.info h1{
+  padding-bottom: 20px;
+}
+.info h4{
+  margin-bottom: 30px;
+}
+.info h3{
+  margin-top: 20px;
+  font-size: 25px;
+}
+.info select{
+  width:130px;
+  height:40px;
+  padding-left: 14px;
+  margin: 0px 10px 30px 0px;
+  display: block;
+}
+.info p{
+  line-height: 30px;
+  font-size: 15px;
+}
+.info input{
+  width:50px;
+  height:40px;
+  padding-left: 15px;
+  margin-right: 10px;
+}
+select{
+  font-weight: 300;
+  outline: none;
+}
+.inp{
+  outline: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.info .bt{
+  display:flex;
+  border-radius: none !important;
+  height:39.5px;
+}
+.bt .ad{
+  cursor: pointer;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  width:130px;
+  height:42px;
+  font-weight: 300;
+  margin-left: 15px;
+  background-color: #77bf7b;
+  color:white;
+  font-size: 15px;
+  font-weight: 200;
+  transition: 0.3s;
+}
+.bt .ad:hover{
+  background-color: white;
+  color:black;
+  border:1px solid grey;
+}
+
+.con2{
+  padding: 50px 0 50px 0;
+}
+.main1{
+  padding-top: 50px;
+}
+.bt{
+
+}
+/* contacts*/
+.breadcrumb.bc1{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.contacts{
+  color:white;
+  width:100%;
+  height:50vh;
+  background-color: #111111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacts .big{
+  display: flex;
+  flex-direction:column;
+}
+.contacts .big .little{
+  display: flex;
+  justify-content: space-around;
+}
+.contacts .big .g1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width:100%;
+  margin-right: 100px;
+}
+.contacts .big .g1 img{
+  width:80%;
+  height:70%;
+}
+.contacts .big .g1 img, p{
+  margin-bottom: 30px;
+}
+.contacts .big .g1 p{
+  font-size: 15px;
+  color:grey;
+  font-weight: 300;
+}
+.contacts .big .g2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+.contacts .big .g2 .p{
+  font-size: 15px;
+  font-weight: 300;
+  color:grey;
+  line-height: 30px;
+  width:200px;
+}
+.contacts .big .g2 .title{
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.contacts .big .g3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 40px;
+}
+.contacts .big .g3 .p{
+  font-size: 15px;
+  font-weight: 300;
+  color:grey;
+  line-height: 30px;
+  width:200px;
+}
+.contacts .big .g3 .title{
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.contacts .big .g4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:100%;
+  width:200px;
+  position: relative;
+  top:-3px;
+}
+.contacts .big .g4 .p{
+  font-size: 15px;
+  font-weight: 300;
+  color:grey;
+  line-height: 30px;
+  width:300px;
+  position: relative;
+  top:-6px;
+}
+.contacts .big .g4 .title{
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.contacts input{
+  color:grey;
+  background:#111111;
+  border:none;
+  outline: none;
+  width:100%;
+  height:20%;
+  border-bottom: 3px solid white;
+  position: relative;
+  top:-30px;
+}
+.contacts .last{
+  width:108%;
+  height:20%;
+  border-top:1px solid grey;
+  margin-top: 40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-size: 20px;
+  padding-top: 50px;
+  font-family: 'Thoi Sach';
+}

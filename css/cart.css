@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/* navbar */
+.navbar-toggler{
+  margin: 20px 0 20px 0 !important;
+}
+.navbar-brand{
+  width:35%;
+}
+.collapse{
+  width:65%;
+}
+.nav-item{
+  margin: 0 0.5vw 0 0.5vw;
+}
+.navbar-nav{
+  width:80%;
+}
+.form-inline{
+  width:20%;
+}
+.form-control{
+  width:150px !important;
+}
+.form-inline .btn{
+  width:100px;
+}
+.search,.heart{
+  margin-right: 1.5vw;
+}
+/* breadcrumb */
+.breadcrumb{
+  height: 150px;
+}
+.breadcrumb .title{
+  position: relative;
+  left:11.5vw;
+  top:3vh;
+  color:black;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.breadcrumb .breadcrumb-item a{
+  color:grey ;
+}
+.breadcrumb-item.active{
+  color:black !important;
+}
+.name{
+  display: flex;
+  position: relative;
+  left:8vw;
+  top:9vh;
+  font-size: 15px;
+  font-weight: 300;
+}
+.table{
+  border:2px solid grey;
+}
+.main{
+  display: flex !important;
+  justify-content:  space-between;
+}
+.left{
+  width:68%;
+}
+.right{
+  width:25%;
+}
+.bt{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:60px;
+  width:250px;
+  position: relative;
+  top:20px;
+  background-color: #77bf7b;
+  color:white;
+  font-size: 15px;
+  font-weight: 100;
+  transition: 0.3s;
+}
+
+.bt:hover{
+  background-color: white;
+  color:black;
+  border:1px solid black;
+}
+/*   chỗ input  quantity*/
+button, input {
+    width: 40px !important;
+    padding-left: 10px !important;
+}
+/* nut update*/
+.upbt{
+  cursor: pointer !important;
+}
+.upbt:hover{
+  text-decoration: underline !important;
+
+}
+.rebt{
+  cursor: pointer !important;
+}
